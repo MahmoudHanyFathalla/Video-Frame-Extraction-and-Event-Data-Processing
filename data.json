@@ -1,0 +1,142 @@
+{
+    "result": "Success",
+    "message": "2373 data points retrieved.",
+    "data": {
+        "match": {
+            "status": {
+                "intStatusID": 4,
+                "strStatus": "Analyzed"
+            },
+"home": {
+    "_type": "home",
+    "id": 1344,
+    "name": "Aston Villa",
+    "logo": "https://korastats.sirv.com/root/club/1243.png",
+    "lineup": {
+        "16765": {
+            "_type": "player",
+            "id": 16765,
+            "name": "Philippe Coutinho Correia",
+            "nickname": "Coutinho",
+            "shirt_number": 23,
+            "dob": "1992-06-12",
+            "primary_position_id": 10,
+            "primary_position_name": "LW",
+            "secondary_position_id": 10,
+            "secondary_position_name": "LW"
+        },
+        "35313": {
+            "_type": "player",
+            "id": 35313,
+            "name": "Damián Emiliano Martínez",
+            "nickname": "Damián Emiliano Martínez",
+            "shirt_number": 1,
+            "dob": "1992-09-02",
+            "primary_position_id": 1,
+            "primary_position_name": "GK",
+            "secondary_position_id": 1,
+            "secondary_position_name": "GK"
+        }
+    }
+},
+"events": [
+    {
+        "_type": "event",
+        "_id": 29784723,
+        "half": 1,
+        "min": 0,
+        "sec": 3,
+        "msec": 0.499,
+        "timeInSec": 3.499,
+        "team_id": 1344,
+        "team": "Aston Villa",
+        "player_id": 43425,
+        "nickname": "Daniel Ings",
+        "shirtNumber": null,
+        "x": 50,
+        "y": 49,
+        "category": "Possession",
+        "category_id": 4,
+        "event": "Pass",
+        "event_id": 15,
+        "result": "Success",
+        "result_id": 10,
+        "guid": "0450b776-6c46-4380-8b56-3b27e880be71",
+        "guid_ref": null
+    },
+    {
+        "_type": "event",
+        "_id": 29784724,
+        "half": 1,
+        "min": 0,
+        "sec": 5,
+        "msec": 0.929,
+        "timeInSec": 5.929,
+        "team_id": 1344,
+        "team": "Aston Villa",
+        "player_id": 35314,
+        "nickname": "Tyrone Mings",
+        "shirtNumber": null,
+        "x": 28,
+        "y": 33,
+        "category": "Possession",
+        "category_id": 4,
+        "event": "BallReceived",
+        "event_id": 32,
+        "result": "Success",
+        "result_id": 10,
+        "guid": "1ea03597-21da-426e-aa37-454611a9b642",
+        "guid_ref": "0450b776-6c46-4380-8b56-3b27e880be71"
+    },
+    {
+        "_type": "event",
+        "_id": 29784725,
+        "half": 1,
+        "min": 0,
+        "sec": 5,
+        "msec": 0.929,
+        "timeInSec": 5.929,
+        "team_id": 1344,
+        "team": "Aston Villa",
+        "player_id": 35314,
+        "nickname": "Tyrone Mings",
+        "shirtNumber": null,
+        "x": 28,
+        "y": 33,
+        "category": "Possession",
+        "category_id": 4,
+        "event": "Pass",
+        "event_id": 15,
+        "result": "Success",
+        "result_id": 10,
+        "guid": "882b1f95-e092-42f4-818f-2510bf05a5a6",
+        "guid_ref": null
+    },
+    {
+        "_type": "event",
+        "_id": 29790562,
+        "half": 2,
+        "min": 53,
+        "sec": 45,
+        "msec": 0.613,
+        "timeInSec": 3225.613,
+        "team_id": 1682,
+        "team": "Watford",
+        "player_id": 0,
+        "nickname": null,
+        "shirtNumber": 1,
+        "x": 50,
+        "y": 50,
+        "category": "Administrative",
+        "category_id": 1,
+        "event": "End of Match",
+        "event_id": 48,
+        "result": "None",
+        "result_id": 1,
+        "guid": "8b8ddd8b-a4d7-4c64-a32f-465091e462e0",
+        "guid_ref": null
+    }
+]
+}
+}
+}
